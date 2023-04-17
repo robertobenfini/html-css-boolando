@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*utilities*/
+.contenitore{
+    padding-left: 30px;
+    width: 1170px;
+    margin: 0 auto;
+}
+/*fine utilities*/
+
+/*inizio header*/
+.sfondo-header{
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+
+.riga-header{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.contenuto-header{
+    display: flex;
+}
+
+.col-header{
+    width: calc(100% / 3);
+    line-height: 50px;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+}
+
+i{
+    padding: 5px;
+}
+/*fine header*/
