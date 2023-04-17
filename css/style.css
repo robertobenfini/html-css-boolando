@@ -68,7 +68,7 @@ i{
 }
 
 .foto{
-    width: 350px;
+    width: 100%;
 }
 
 .sconto,.sostenibilità-sconto,.sostenibilità{
@@ -80,19 +80,25 @@ i{
 .sconto.rosso{
     background-color: red;
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
 }
 
 .sostenibilità-sconto{
     background-color: green;
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
     left: 55px;
 }
 .sostenibilità{
     background-color: green;
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
 }
+
+.prezzo-rosso{
+    color: red;
+}
+
+
 
 /*fine main*/
