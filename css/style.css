@@ -6,13 +6,23 @@
 
 /*utilities*/
 .contenitore{
-    padding-left: 30px;
     width: 1170px;
     margin: 0 auto;
 }
 /*fine utilities*/
 
 /*inizio header*/
+
+header{
+    position: fixed;
+    z-index: 100;
+}
+.contenitore-header{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+
 .sfondo-header{
     background-color: rgb(255, 123, 0);
     color: white;
@@ -21,9 +31,6 @@
 .riga-header{
     width: 100%;
     padding-top: 20px;
-}
-
-.contenuto-header{
     display: flex;
 }
 
@@ -34,7 +41,7 @@
     font-size: 20px;
     text-align: center;
 }
-
+    
 .logo{
     width: 200px;
 }
@@ -43,3 +50,48 @@ i{
     padding: 5px;
 }
 /*fine header*/
+
+/*inizio main*/
+.riga-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.col-main{
+    width: calc(100% / 3 - 20px);
+    margin: 40px 10px;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.foto{
+    width: 350px;
+}
+
+.sconto,.sostenibilità-sconto,.sostenibilità{
+    padding: 3px 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.sconto.rosso{
+    background-color: red;
+    position: absolute;
+    bottom: 40px;
+}
+
+.sostenibilità-sconto{
+    background-color: green;
+    position: absolute;
+    bottom: 40px;
+    left: 55px;
+}
+.sostenibilità{
+    background-color: green;
+    position: absolute;
+    bottom: 40px;
+}
+
+/*fine main*/
