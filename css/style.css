@@ -67,10 +67,6 @@ i{
     position: relative;
 }
 
-.foto{
-    width: 100%;
-}
-
 .sconto,.sostenibilità-sconto,.sostenibilità{
     padding: 3px 10px;
     color: white;
@@ -99,6 +95,25 @@ i{
     color: red;
 }
 
+.foto-1{
+    display: block;
+    width: 100%;
+}
+
+.foto-2{
+    display: none;
+    width: 100%;
+}
+
+.foto-main:hover .foto-2{
+    display: block;
+    width: 100%;
+}
+
+.foto-main:hover .foto-1{
+    display: none;
+    width: 100%;
+}
 
 
 /*fine main*/
