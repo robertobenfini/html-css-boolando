@@ -53,6 +53,9 @@ i{
 /*fine header*/
 
 /*inizio main*/
+main{
+    padding-top: 100px;
+}
 .riga-main{
     display: flex;
     flex-wrap: wrap;
@@ -114,6 +117,30 @@ i{
     display: none;
     width: 100%;
 }
-
-
 /*fine main*/
+
+/*inizio footer*/
+.sfondo-footer{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding: 20px 0 20px 0;
+}
+
+.riga-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.span-testo-footer{
+    margin-left:10px;
+}
+
+.h3-footer{
+    margin-bottom: 10px;
+}
+.social{
+    margin-top: 10px;
+}
+
+/*fine footer*/
