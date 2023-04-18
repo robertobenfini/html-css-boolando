@@ -21,6 +21,7 @@ header{
     position: fixed;
     z-index: 100;
     width: 100%;
+    box-shadow: 0 0 10px 1px black;
 }
 .contenitore-header{
     width: 1170px;
@@ -37,14 +38,13 @@ header{
     width: 100%;
     padding-top: 20px;
     display: flex;
+    justify-content: space-between;
 }
 
 .col-header{
-    width: calc(100% / 3);
     line-height: 50px;
     font-weight: 800;
     font-size: 20px;
-    text-align: center;
 }
     
 .logo{
@@ -53,6 +53,10 @@ header{
 
 i{
     padding: 5px;
+}
+
+.nome-capo{
+    text-transform: uppercase;
 }
 /*fine header*/
 
@@ -137,7 +141,7 @@ main{
 
 /*inizio footer*/
 .sfondo-footer{
-    background-color: black;
+    background-color: rgb(41, 41, 41);
     color: white;
     margin-top: 50px;
     padding: 20px 0 20px 0;
